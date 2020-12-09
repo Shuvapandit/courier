@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta cgarset ="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="www.doortodoor.com. courier">
+        <!--for browser frindly-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+ <title> www.doortodoor.com</title>
+ <!-- Titillium Web font -->
+ <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700&display=swap" rel="stylesheet">
+<!-- font awsome cdn link-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<link rel="stylesheet" href="b.js">
+<link rel="stylesheet" href="a.css">
+<link rel="stylesheet" href="responsive.css">
+<script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+
+
+</head>
+
+<body>
+ <!--start header section--> 
+
+<header id="home">
+  <nav >
+   
+    
+    <a href="#home">
+      <img src="pict/logo/dg.webp" alt="ATOZ" class="logo">
+         </a>
+      
+      <div class="menu">
+  
+          <ul >
+              <li class="active"><a href="#home"> HOME </a></li>
+              
+              <li><a href="#lgin"> REGISTRATION</a></li>
+              <li><a href="#prc"> PRICING </a></li>
+              <li><a href="#trc"> TRACKING </a></li>
+              <li><a href="#contact"> CONTACT</a></li>
+              
+             </ul>
+
+      </div>
+      <div class="mobile-menu">
+        <span onclick="openNav()">&#9776;</span>
+        <div id="mynav" class="overlay">
+        <a href="javascript:void(0)" onclick="colseNav()" class="closebtn">&times;</a>
+     <div class="overlay-cntnt">
+      <a onclick="closeNav()" href="#home"> HOME </a>
+              
+      <a onclick="closeNav()" href="#lgin"> REGISTRATION</a>
+      <a onclick="closeNav()" href="#prc"> PRICING </a>
+      <a onclick="closeNav()" href="#trc"> TRACKING </a>
+      <a onclick="closeNav()"  href="#contact"> CONTACT</a>
+     </div>
+    </div>
+      </div>
+  </nav>
+
+  
+  <h1>  WE COMMITTED TO PROVIDE QUALITY SERVICE.</h1>
+  <p class="cv" >Stay with us.</p>
+
+  
+  </header>
+   <!--end header section-->
+
+
+      
+       <!--Start login section-->
+
+       <section class="login" id="lgin">
+         <div class="box">
+         <h2 class="reg">Registration Form</h2>
+    <div class="lgn">
+         <form action="main.php" method="post">
+           <div class="nm">
+            
+          
+           <input type="text"  class="cntrol"placeholder="Enter your vaild name"  required name="username"> <br> 
+          </div>
+          <div class="nm">
+           <input type="number" placeholder="Enter your phone Number"  required name="phonenumber"> <br>
+          </div>
+           <input type="email" placeholder="Enter your vaild email"  required name="email"> <br> 
+           <input type="address" placeholder="Enter your vaild Address"  required  name="address"> <br> 
+           <input type="address" placeholder="Enter parcel Address" required name="placeaddress"> <br> 
+           <input type="number"  placeholder="Enter parcel Raceiver  phone Number"   required name="receiverphonenumber"> <br> 
+           <input type="password" placeholder="Enter your pin" name="password"  required name="password"> <br>
+           
+           <input type="submit" value="Submit"> <br> <br>
+
+         </form>
+        </div>
+      </div>
+     
+       </section>
+
+         <!--end login section-->
+<!--start pricing section-->
+
+<section class="PRICING" id="prc">
+   <div class="prci">     
+  <form action="cost.php"   class="boxp" method="GET">
+   
+   
+    <input type="weight"  placeholder=" Enter your percel Weight"   required name="num1"> <br> <br>
+
+    
+    
+    
+      <input type="kg"  placeholder=" Enter 20 Taka  (per K.G)"  required name="num2"> <br> <br>
+      
+      <input type="submit" value="Submit"> <br> <br>
+   
+ 
+   
+
+  </form>
+
+</div> 
+</section>
+
+<!--start TRACKING section-->
+<section class="tracking" id="trc">
+<div>
+  <form action="track.html" method="GET">
+
+   <div class="tc"><input type="traceno" placeholder=" Enter your Tracking id"  required> <button class="btn">Track & Trace</button></div> 
+  
+
+
+  </form>
+</div>
+
+
+</section>
+
+
+<!--End TRACKING section-->
+<!--Start footer section-->
+
+  <footer>
+    <div class="main-content" id="contact">
+    <div class="lft box">
+<h2 id="about">About us</h2>
+<div class="content">
+  <P> This system deals with the coustomers. The system is used for daily activities such as booking, non-delivery, out return, company details, and pickup centers. It is very difficult to do this process manually. Hence it is recommended to computerize the process by developing the relative software as the world is turning into information and technology; computerization becomes necessity in all walks of life
+    his project deals with the ‘Courier management’. The system is used for daily activities such as booking, non-delivery, out return, company details, and pickup centers. It is very difficult to do this process manually. Hence it is recommended to computerize the process by developing the relative software as the world is turning into information and technology; computerization becomes necessity in all walks of life</P>
+    <div class="social">
+      <a href="https://www.facebook.com/"> <span class="fa fa-facebook" aria-hidden="true">
+      
+      <a href="#"> <span class="fa fa-twitter" aria-hidden="true">   </a>
+      <a href="#"> <span class="fa fa-google" aria-hidden="true"></a>
+      <a href="#"> <span class="fa fa-linkedin-square" aria-hidden="true">
+      </a>
+      <a href="#"> <span class="fa fa-instagram" aria-hidden="true"> </a>
+
+    </div>
+   
+</div>
+      </div>
+    
+    <div class="centerbox">
+      <h2>Adress</h2>
+      <div class="content">
+<div class="place">
+
+  <a href="#"> <span class="fa fa-map-marker" aria-hidden="true"> </a>
+    <span class="txt">Mirpur 2,Dhaka</span>
+    
+</div>
+<div class="phone">
+
+  <a href="#"> <span class="fa fa-phone" aria-hidden="true"> </a>
+    <span class="txt">+008-01872451678</span>
+    
+</div>
+<div class="email">
+
+  <a href="#"> <span class="fa fa-envelope" aria-hidden="true"> </a>
+    <span class="txt">atoz@gmail.com</span>
+    
+</div>
+      </div>
+       
+    </div>
+    <div class="rightbox">
+      <h2>Contact Us</h2>
+<div class="content">
+<form action="contactinformation.php" method="POST">
+    <div class="email">
+      <div class="text"> Email*</div>
+      <input type="eml" name="Email" required>
+    </div>
+    <div class="msge">
+      <div class="text">  Message*</div>
+      
+      <textarea rows="2" cols="25" required name= "message"></textarea>
+
+
+    </div>
+   <div class="bttn">
+      <button type="snd">Send</button>
+
+    <div>
+  </form>
+  
+</div>
+    </div>
+  <!-- </div> -->
+  </footer>
+  <!--end footer section-->
+  <!--js script-->
+  
+
+
+  <script src="b.js"></script>
+  <script src="courier.js"></script>
+
+    </body>
+    </html>

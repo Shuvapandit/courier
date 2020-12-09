@@ -1,0 +1,54 @@
+body
+{
+    color: black;
+    background-color: grey;
+
+}
+.aa 
+{
+ 
+background: rgba(44, 62, 80, 0.7);
+padding: 40px;
+width: 250px;
+margin: auto;
+margin-top: 80px;
+height: 400px;
+margin-left: 180x;
+border-radius: .8rem;
+
+   
+}
+.as
+{
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: 2rem;
+}
+form{
+    width: 240px;
+    text-align: center;
+}
+input[type=text],input[type=password]
+{
+    width:80%;
+    padding: 15px 20px;
+    margin: 3px 0;
+    display:  inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: .5rem;
+
+}
+
+input[type="submit"]
+{
+    width:80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: .5rem;
+    background: rgba(26, 122, 102, 0.541);
+    border: 0;
+    cursor: pointer;
+    color: #3e3d3d;
+
+}

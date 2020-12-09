@@ -1,0 +1,92 @@
+@media only screen and (max-width: 1024px)
+{
+  
+  .mobile-menu span
+  {
+    display: block;
+  }
+  .menu
+  {
+      display: none;
+
+  }
+  .mobile-menu span{
+    padding-top: 1rem;
+
+ font-size: 6rem;
+  }
+
+  html {
+    font-size:50.5%;
+  }
+  .cv
+  {
+    padding-top: 3rem;
+    padding-left: 50rem;
+  }
+
+}
+@media only screen and (max-width: 768px)
+{
+  
+    .menu
+    {
+        display: none;
+
+    }
+  html {
+    font-size:40.5%;
+  }
+  .cv
+  {
+    padding-top: 4rem;
+    padding-left: 40rem;
+    font-size: 6rem;
+  }
+  input[type=text],input[type=password],input[type=email],input[type=number],input[type=address]
+{
+    width:50%;
+    padding: 12px 20px;
+    margin: 3px 0;
+    display:  inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: .5rem;
+}
+input[type="submit"]
+{
+    width:50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: .5rem;
+    background: chartreuse;
+    border: 0;
+    cursor: pointer;
+    color: #3e3d3d;
+
+}
+  .prci{
+    
+
+    padding-top: 20rem ;
+    padding-left: 40rem;
+text-align: justify;
+
+
+}
+input[type=weight],input[type=kg]
+{
+    width:50%;
+    padding: 12px 20px;
+    margin: 3px 0;
+    display:  inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    
+    
+   
+}
+}
+
+
